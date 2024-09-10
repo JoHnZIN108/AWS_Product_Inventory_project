@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
-    background-color: #bbcfc7; /* Soft light background */
-    color: #2d3436; /* Dark gray text */
-    font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+    background-color: #bbcfc7;
+    color: #2d3436; 
+    font-family: 'Poppins', sans-serif; 
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    color: #115080; /* Bright blue heading */
+    color: #115080; 
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
@@ -20,13 +20,13 @@ h1 {
     max-width: 600px;
     margin: 30px auto;
     padding: 30px;
-    background-color: #ffffff; /* White card background */
+    background-color: #ffffff; 
     border-radius: 12px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
 }
 
 label {
-    color: #636e72; /* Gray label text */
+    color: #636e72; 
     font-size: 14px;
     margin-top: 10px;
     display: block;
@@ -40,7 +40,7 @@ input[type="text"] {
     border: 1px solid #dfe6e9;
     border-radius: 8px;
     font-size: 14px;
-    background-color: #f1f2f6; /* Light gray input background */
+    background-color: #f1f2f6; 
 }
 
 input[type="submit"] {
@@ -49,7 +49,7 @@ input[type="submit"] {
     margin-top: 15px;
     border: none;
     border-radius: 8px;
-    background-color: #00b894; /* Bright green button */
+    background-color: #00b894;
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
@@ -58,7 +58,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #019875; /* Darker green on hover */
+    background-color: #019875; 
 }
 
 table {
@@ -71,16 +71,16 @@ table {
 th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #dfe6e9; /* Light gray table border */
+    border-bottom: 1px solid #dfe6e9;
 }
 
 th {
-    background-color: #dfe6e9; /* Light gray header background */
+    background-color: #dfe6e9; 
     font-weight: 600;
 }
 
 td {
-    background-color: #f9fbfd; /* Slight off-white row background */
+    background-color: #f9fbfd;
 }
 
 button {
@@ -88,7 +88,7 @@ button {
     padding: 8px 12px;
     border: none;
     border-radius: 8px;
-    background-color: #00b894; /* Bright green button */
+    background-color: #00b894;
     color: #ffffff;
     font-size: 14px;
     cursor: pointer;
@@ -97,14 +97,13 @@ button {
 }
 
 button:hover {
-    background-color: #019875; /* Darker green on hover */
+    background-color: #019875; 
 }
 
 .actionButtons{
     height: 50px;
 }
 
-/* Media Query for mobile responsiveness */
 @media (max-width: 768px) {
     .container {
         padding: 20px;

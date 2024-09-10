@@ -1,3 +1,6 @@
+const API_ENDPOINT = "https://your-cloudfront-domain-name";   // Copy from CloudFormation output
+
+
 // Function to handle editing a product
 function editProduct(productId) {
     $.ajax({

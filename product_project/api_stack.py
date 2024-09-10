@@ -39,16 +39,5 @@ class APIStack(Stack):
         product.add_method("PUT", UPDATE_integration)
         product.add_method("DELETE", DELETE_integration)
 
-        # CloudFront distribution for the API
-        distribution = cloudfront.Distribution(
-            self, "ProductApiDistribution",
-            default_behavior=cloudfront.BehaviorOptions(
-                origin=origins.RestApiOrigin(API),  # Use RestApiOrigin for API Gateway
-            )
-        )
-
-        # Output the CloudFront URL for the API
-        CfnOutput(self, "API_CloudFront_URL", value=f"https://{distribution.domain_name}")
-
         # Output API Gateway URL
         CfnOutput(self, "API_URL", value=API.url_for_path("/products"))

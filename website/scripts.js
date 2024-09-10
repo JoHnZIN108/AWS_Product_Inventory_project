@@ -1,4 +1,5 @@
-const API_ENDPOINT = "https://your-cloudfront-domain-name";   // Copy from CloudFormation output
+// Replace with API end point once deployed
+const API_ENDPOINT = "https://your-api-id.execute-api.your-region.amazonaws.com/prod"; 
 
 
 // Function to handle editing a product

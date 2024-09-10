@@ -1,4 +1,4 @@
-In this project, I utilized AWS CDK to design and deploy the infrastructure for a serverless web application for product inventory management with CRUD functionalities.
+In this project, I utilized AWS CDK to design and deploy the infrastructure for a serverless web application for product inventory management with CRUD functionalities. The single page website is contained and ran from within the s3 bucket
 ![image](https://github.com/user-attachments/assets/3aa7d59f-8d19-49ee-bef8-deb67c711986)
 
 

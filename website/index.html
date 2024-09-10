@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Manage Products</h1>
+        <label for="productid">Product ID:</label>
+        <input type="text" name="productid" id="productid"><br><br>
+        
+        <label for="productname">Product Name:</label>
+        <input type="text" name="productname" id="productname"><br><br>
+        
+        <label for="category">Category:</label>
+        <input type="text" name="category" id="category"><br><br>
+        
+        <label for="price">Price:</label>
+        <input type="text" name="price" id="price"><br><br>
+        
+        <label for="quantity">Stock Quantity:</label>
+        <input type="text" name="quantity" id="quantity"><br><br>
+        
+        <div id="buttonContainer">
+            <input type="submit" id="saveProduct" value="Save Product">
+        </div>
+        <p id="productSaved"></p>
+        
+        <br>
+        <input type="submit" id="getProducts" value="View all Products">
+        <br><br>
+        <div id="showProducts">
+            <table id="productTable">
+                <colgroup>
+                    <col style="width:20%">
+                    <col style="width:30%">
+                    <col style="width:20%">
+                    <col style="width:15%">
+                    <col style="width:15%">
+                    <col style="width:10%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th style="text-align: center;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>4</td>
+                        <td>mango</td>
+                        <td>fruit</td>
+                        <td>$45</td>
+                        <td>25</td>
+                        <td class="actionButtons" style="white-space: nowrap;">
+                            <button onclick="editProduct('${data.productid}')">Edit</button>
+                            <button onclick="deleteProduct('${data.productid}')">Delete</button>
+                        </td>
+                    </tr>
+                    <!-- Product data will be displayed here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+</body>
+</html>

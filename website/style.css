@@ -1,0 +1,116 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: #bbcfc7; /* Soft light background */
+    color: #2d3436; /* Dark gray text */
+    font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #115080; /* Bright blue heading */
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff; /* White card background */
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+label {
+    color: #636e72; /* Gray label text */
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f1f2f6; /* Light gray input background */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00b894; /* Bright green button */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #019875; /* Darker green on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dfe6e9; /* Light gray table border */
+}
+
+th {
+    background-color: #dfe6e9; /* Light gray header background */
+    font-weight: 600;
+}
+
+td {
+    background-color: #f9fbfd; /* Slight off-white row background */
+}
+
+button {
+    display: inline;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00b894; /* Bright green button */
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #019875; /* Darker green on hover */
+}
+
+.actionButtons{
+    height: 50px;
+}
+
+/* Media Query for mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    input[type="submit"], button {
+        font-size: 14px;
+    }
+}

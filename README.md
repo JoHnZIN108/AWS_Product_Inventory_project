@@ -1,7 +1,7 @@
 # Overview
-In this project, I used AWS CDK to design and deploy the infrastructure for a serverless web application focused on product inventory management with full CRUD functionalities. The single-page website is hosted and run directly from an S3 bucket.
+In this project, I utilized AWS CDK to design and deploy the infrastructure as code (IaC) for a serverless web application focused on product inventory management with full CRUD functionalities. 
+The single-page website is hosted and run directly from an S3 bucket, providing a streamlined and efficient solution for managing product data.
 
-This is a simple easy-to-use Script I created to quickly combine multiple pdf files in a folder.
 
 # AWS Architecture Overview
 ![image](https://github.com/user-attachments/assets/3aa7d59f-8d19-49ee-bef8-deb67c711986)

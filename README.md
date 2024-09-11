@@ -7,5 +7,5 @@ The single-page website is hosted and run directly from an S3 bucket, providing 
 ![image](https://github.com/user-attachments/assets/3aa7d59f-8d19-49ee-bef8-deb67c711986)
 
 
-# Snapshot of the website in the S3 bucket
+# Snapshot of the website hosted in the S3 bucket
 ![image](https://github.com/user-attachments/assets/766ff47a-d2a5-4913-8c25-1bb9907fdc8a)
